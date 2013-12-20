@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Pozz</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-<%= link_to "Pozz", root_path %>
+	<head>
+		<title>Pozz</title>
+		<%= stylesheet_link_tag    "application", :media => "all" %>
+		<%= javascript_include_tag "application" %>
+		<%= csrf_meta_tags %>
+	</head>
+	<body>
+			<%= link_to "Pozz", root_path %>
 
-<%= yield %>
+		<%= yield %>
 
 
-<div class="footer">
-	<small>
-		<%= link_to "About Us", about_path %>
-	</small>
-</div>
+		<div class="footer">
+			<small>
+				<%= link_to "About Us", about_path %>
+			</small>
+		</div>
 
-</body>
+	</body>
 </html>

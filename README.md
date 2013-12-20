@@ -2,4 +2,4 @@
 
 This is the prototype application for [Pozz](http://pozz.me)
 
-by Pozz team
+by Pozz team 
