@@ -7,8 +7,16 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<%= link_to "Pozz", root_path %>
 
 <%= yield %>
+
+
+<div class="footer">
+	<small>
+		<%= link_to "About Us", about_path %>
+	</small>
+</div>
 
 </body>
 </html>
